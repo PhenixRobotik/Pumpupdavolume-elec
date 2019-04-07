@@ -1,0 +1,75 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC164
+D 8-bit serial in, parallel-out shift register
+K CMOS 8-bit shift register
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf
+$ENDCMP
+#
+$CMP CAN_conn
+D CAN connector for PhenixRobotik
+K connector
+F https://github.com/PhenixRobotik/phenix_kicad
+$ENDCMP
+#
+$CMP Conn_Debug
+D Debug connector for PhenixRobotik boards with NRST, SWD, UART and GND
+K connector
+F ~
+$ENDCMP
+#
+$CMP IRFR5305
+D -35A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron, 25.0nC Qg (typ), TO252
+K P-Channel MOSFET
+F http://www.jaolen.com/images/pdf/QM6015D.pdf
+$ENDCMP
+#
+$CMP LP38693MP-ADJ
+D LP3869x-ADJ/Q1 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors
+K LDO Linear Regulator adjustable
+F http://www.ti.com/lit/ds/snvs324k/snvs324k.pdf
+$ENDCMP
+#
+$CMP LTC4353_DFN
+D Dual Low Voltage Ideal Diode Controller (DFN Footprint with Pad)
+K Dual Low Voltage Ideal Diode Controller (DFN Footprint with Pad)
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4353f.pdf
+$ENDCMP
+#
+$CMP LTC4353_MSOP
+D Dual Low Voltage Ideal Diode Controller (MSOP Footprint)
+K Dual Low Voltage Ideal Diode Controller (MSOP Footprint)
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4353f.pdf
+$ENDCMP
+#
+$CMP NMOS-T252
+D -35A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron, 25.0nC Qg (typ), TO252
+K P-Channel MOSFET
+F http://www.jaolen.com/images/pdf/QM6015D.pdf
+$ENDCMP
+#
+$CMP SN74LVC2T45
+D Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-23-6
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf
+$ENDCMP
+#
+$CMP TXB0108PW
+D 8-bit bidirectional voltage level translator with auto-direction sensing PW package
+K bidirectional voltage level translator
+F http://www.ti.com/lit/ds/symlink/txb0108.pdf
+$ENDCMP
+#
+$CMP VL53L0X
+D Time-of-Flight ranging and gesture detection sensor
+K time of flight TOF VL53L0X
+F https://www.st.com/resource/en/datasheet/vl53l0x.pdf
+$ENDCMP
+#
+$CMP VL6180X
+D Proximity and ambient light sensing module
+K ALS proximity ambient light VL6180X
+F https://www.st.com/resource/en/datasheet/vl6180x.pdf
+$ENDCMP
+#
+#End Doc Library
